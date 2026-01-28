@@ -14,3 +14,12 @@ print(f"Reverse is: {res}")
 def ispalindrome(n):
     return n==Rev(n)
 print(ispalindrome(n))
+
+
+def listpalindrome(start,end):
+    res=""
+    for i in range(start,end+1):
+        if ispalindrome(i):
+            res=res+str(i)+","
+    return res
+print(listpalindrome(1,200))
