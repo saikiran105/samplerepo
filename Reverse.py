@@ -22,4 +22,8 @@ def listpalindrome(start,end):
         if ispalindrome(i):
             res=res+str(i)+","
     return res
+<<<<<<< HEAD
 print(listpalindrome(1,250))
+=======
+print(listpalindrome(1,100))
+>>>>>>> 186a9c7a4dd6e8f924bf693485884d621034c3ac
